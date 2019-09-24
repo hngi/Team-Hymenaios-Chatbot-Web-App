@@ -1,16 +1,12 @@
-/*The colours to be used during this project are 
- #FFF(white) and #6a89cc(blue).
- please add any other colour used here.
-   */
+/*The colours to be used during this project 
+ should please be posted here:
+ .
+*/
 
 /********GENERAL STYLES***********/
 /*********************************/
 html {
     font-family: 'Lato', sans-serif;
-}
-
-body {
-    background: #FFF;
 }
 
 a {
