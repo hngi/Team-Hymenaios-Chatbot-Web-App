@@ -11,27 +11,18 @@
 
 /********GENERAL STYLES***********/
 /*********************************/
-html {
-    font-family: 'Karla', sans-serif;
-    font-style: normal;
-    color: #FFF;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    width:100%;
-    text-align: center;
-    
-}
-
-.wrapper{
     background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%)
     no-repeat;
-    border-radius: 17px;
-}
-p,h1{
-    font-family: "Century Gothic", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
+    height: 105.5vh;
 }
 
 p{
@@ -40,20 +31,20 @@ p{
 
 h1{
     color: #FFF;
-    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
     font-weight: bold; 
-    margin-bottom: 3%;
+    margin-bottom: 30px;
     letter-spacing: 2px;
+    margin-top: 2em;
 }
- .navbar{
+
+.navbar{
     margin-bottom: 0;
- }
+}
 
 .navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
     font-size:2rem;
-
 }
+
 .nav-item{
     padding:0px 10px;
 }
@@ -66,9 +57,10 @@ a {
 	cursor: pointer;
 }
 
-.social-media{
+.fab{
     width:10px;
     height:10px;
+    font-size: 2rem;
 }
 
 .container{
@@ -76,12 +68,13 @@ a {
 }
 
 .main-img{
-    width: 80%;
-    height: 65%;  
+    width: 20em;
+    height: 20em;
+    margin-bottom: 10rem;  
 }
 
 .i-phone{
-    width: 150%;
+    width: 15em;
     padding: 0;
     margin: 0;
 }
@@ -89,17 +82,17 @@ a {
 .bottom-phone{
     position: absolute;
     top: 10%;
-    left: -10%;
+    left: 50%;
 }
 
 .top-phone{
    position: absolute;
-   right: -20%;
+   right: 7em;
    top: 0;
 }
+
 .left-div{
     text-align: left;
-    margin-top: 15%;
     color: #fff;
 }
 
