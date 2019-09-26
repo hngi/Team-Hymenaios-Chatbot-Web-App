@@ -60,39 +60,83 @@ function error(){
     actions();
 }
 
+function breakup() {
+    $breakupConvo = array('You deserve better, having a breakup is not the end of the world.',
+    'You have to move on and build acceptance that your partner has left.',
+    'Stop thinking too much about your partner',
+    'You need to stay active and engaged with something productive.',
+    'I think you should give your partner a second chance.',
+    'I think you should take a break from the relationship.')
+
+    $no = rand(0,6);
+    echo $breakupConvo[$no] 
+}
+
+function health_worries() {
+    $health = array('You should register as a member of a health spa or gym.',
+    'Stop been afraid of needles as I am.',
+    'Try to finish your medication instead of abandoning them.',
+    'If you smoke, you have to stop as it is not good for you.',
+    'Always go for lab tests to know what\'s wrong',
+    'Try to have enough rest and sleep.',
+    'Stop eating too much of junk food.');
+
+    $no = rand(0,7);
+    echo $health[$no] 
+}
+
+function self_confidence() {
+    $confidence = array('Challenge bad thoughts about yourself by replacing them with good thoughts.',
+    'Take care of yourself by eating well and exercising.',
+    'Try to relax a lot more with anything that suits you.',
+    'Set yourself realistic goals and keep track of your progress.',
+    'Surround yourself with people with good vibes not bad energy.',
+    'Accept yourself, your flaws and imperfections and learn to love them because they are what makes you unique.',
+    'Don\'t be afraid to try new things.')
+
+    $no = rand(0,7);
+    echo $confidence[$no] 
+}
+
 function career() {
     $careerConv = array('Let\'s talk about your career.',
-    'May I know your choice of career?',
-    'What subject or course are you good at?',
+    'Tell me the career you\'re about to pursue.',
+    'Tell me why you chose that career.',
     'You could become a programmer and make a special bot like me.',
-    'Have you completed college?',
-    'Have you served Nigeria in the mandatory NYSC?'
-    );
+    'Try completing college.',
+    'Make sure you serve Nigeria by completing the mandatory NYSC.');
+
+    $no = rand(0,6);
+    echo $careerConv[$no] 
 }
 
 function food() {
-    $foodConv = array('What is your favorite food?',
-    'How often do you eat?',
-    'Do you follow a special diet?',
-    'Is your city famous for any foods?',
-    'Have you tried growing your own food?',
-    'Are you a vegetarian?'
-    'Are you a good cook?'
+    $foodConv = array('Tell me your favourite food.',
+    'You should reduce the much you eat junk.',
+    'I think you should follow a special diet.',
+    'Tell me food(s) your city is famous for.',
+    'You should try growing your own food.',
+    'Eat more protein and drink more water.'
+    'I think you\'re a good cook.'
     'Pick one food to represent you.')
+
+    $no = rand(0,8);
+    echo $foodConv[$no] 
 }
 
 function sport() {
-    $sportConv = array('Do you play any sports?',
-    'Who is your favorite professional athlete?',
-    'What is the most expensive sport?',
-    'Do you ever watch football games?',
-    'Who is your favorite football player?',
-    'Do you have a favorite football team?',
-    'Do you do exercises? How often do you do exercises?',
-    'What exercises do you like to do?',
-    'Do you like going to the gym?',
-    'Can you swim?',
-    'Have you taken swimming lessons?')
+    $sportConv = array('Tell me who your favorite professional athlete is.',
+    'Try jogging to reduce your weight.',
+    'Play any sport, it also improves bonding with friends.',
+    'Tell me who your favorite football player is.',
+    'Try being a fan of a football team.',
+    'Set your schedule for exercises and stick to it.',
+    'Tell me the exercises you like to do.',
+    'To be serious about exercises, I suggest you should register at the gym.',
+    'Try swimming, it\'s a great sport.')
+
+    $no = rand(0,9);
+    echo $sportConv[$no] 
 }
 
 ?>
