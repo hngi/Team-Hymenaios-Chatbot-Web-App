@@ -18,8 +18,8 @@
 }
 
 body{
-    background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%)
-    no-repeat;
+    background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%) no-repeat, url(img/Cloud.jpg);
+    
     font-family: 'Montserrat', sans-serif;
     overflow-y: hidden;
     height: 105.5vh;
