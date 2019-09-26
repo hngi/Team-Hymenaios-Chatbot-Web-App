@@ -60,19 +60,49 @@ function error(){
     actions();
 }
 
+function breakup() {
+    $breakupConvo = array('What does it feel like to ave a broken heart?',
+    'Did your partner deserve you?',
+    'You have to move on.',
+    'Stop thinking too much about your partner',
+    'You need to hangout more often',
+    'If your partner asks for a second chance, would you be willing to give a chance?',
+    'Would you prefer to take a break in the relationship?')
+}
+
+function health() {
+    $healthConvo = array('Are you a member of a health spa or gym?',
+    'Are you afraid of needles? I am.'
+    'Do you think you need to lose weight?'
+    'How often do you catch a cold?',
+    'Do you smoke?',
+    'What is your blood type?',
+    'Do you sleep well?',
+    'How much of junk food do you eat?');
+}
+
+function self_confidence() {
+    $confidenceConvo = array('Challenge bad thoughts about yourself by replacing them with good thoughts.',
+    'Take care of yourself by eating well and exercising.',
+    'Try to relax a lot more with anything that suits you.',
+    'Set yourself realistic goals and keep track of your progress.',
+    'Surround yourself with people with good vibes not bad energy.',
+    'Accept yourself, your flaws and imperfections and learn to love them because you are unique.',
+    'Try new things; check youtube for some tutorials.')
+}
+
 function career() {
     $careerConv = array('Let\'s talk about your career.',
     'May I know your choice of career?',
     'What subject or course are you good at?',
     'You could become a programmer and make a special bot like me.',
     'Have you completed college?',
-    'Have you served Nigeria in the mandatory NYSC?'
-    );
+    'Have you served Nigeria in the mandatory NYSC?');
 }
 
 function food() {
     $foodConv = array('What is your favorite food?',
-    'How often do you eat?',
+    'How often do you eat junk?',
     'Do you follow a special diet?',
     'Is your city famous for any foods?',
     'Have you tried growing your own food?',

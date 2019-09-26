@@ -25,16 +25,15 @@ body{
     height: 105.5vh;
 }
 
-p{
-    font-size: 1.5em;
-}
-
 h1{
     color: #FFF;
-    font-weight: bold; 
-    margin-bottom: 30px;
-    letter-spacing: 2px;
+    font-size: 2em;
+    margin-bottom: 20px;
     margin-top: 2em;
+}
+
+p{
+    font-size: 1.5em;
 }
 
 .navbar{
@@ -61,6 +60,7 @@ a {
     width:10px;
     height:10px;
     font-size: 2rem;
+    color: #FFF;
 }
 
 .container{
@@ -68,8 +68,8 @@ a {
 }
 
 .main-img{
-    width: 20em;
-    height: 20em;
+    width: 30em;
+    height: 23em;
     margin-bottom: 10rem;  
 }
 
