@@ -1,0 +1,27 @@
+import os, bot
+from flask import Flask, render_template, url_for, redirect, request, make_response
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+	session = bot.SessionID()
+	session_id = str(session.generate())
+	resp = make_response(render_template("index.html", sessionid=session_id))
+	resp.set_cookie('session', session_id)
+	return resp
+
+
+@app.route("/chatbot")
+def chatbot():
+	return render_template("chat.html")
+
+@app.route("/reply")
+def reply():
+	msg = request.args.get('message', '')
+	session = request.cookies.get('session')
+	reply = bot.get_reply(msg, int(session))
+	return "%s (bot):%s" %(session, reply)
+
+if __name__ == "__main__":
+	app.run()
