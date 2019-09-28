@@ -15,6 +15,10 @@ def chatbot():
 	resp.set_cookie('session', session_id)
 	return resp
 
+@app.route("/gallery")
+def gallery():
+	return render_template("gallery.html")
+
 @app.route("/reply")
 def reply():
 	msg = request.args.get('message', '')
