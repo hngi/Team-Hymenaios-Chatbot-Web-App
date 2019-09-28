@@ -32,7 +32,10 @@ class SessionID(object):
 			print("error : ", e)
 			id_ = str(random.randint(1, 800000))+str(random.randint(1, 800000))
 			print("error resolved")
-		return int(id_)
+		try:
+			return int(id_)
+		except:
+			return str(random.choice(range(1000)))
 
 
 
