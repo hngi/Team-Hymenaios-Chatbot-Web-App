@@ -47,7 +47,7 @@ p{
 }
 
 .navbar-brand{
-    font-size:2rem;
+    position: relative;
 }
 
 .nav-item{
@@ -122,6 +122,38 @@ a {
 /*---Media Queries --*/
 @media (max-width: 992px) 
 {
+        body
+        {
+          overflow: auto;
+          margin-top: 1%;
+          margin-bottom: 30%;
+          height: 100vh;
+        }
+    h1 
+    {
+      margin-top: .5em;
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    p 
+    {
+      font-size: 1.3em;
+      margin-bottom: 0;
+    }
+    .nav-link 
+    {
+     font-size: .8rem;
+    }
+    .lineBreak
+    {
+      display: inline;
+    }
+    .fab 
+    {
+    width: 5px;
+    height: 5px;
+    font-size: 1rem;
+    }
     .row.text-center
     {
       display: flex;
@@ -136,121 +168,106 @@ a {
       justify-content: center;
       text-align: center;
     }
-    .lineBreak
-    {
-      display: inline;
-    }
     .main-img 
     {
-      margin-bottom: 1rem;
-    }
-    .bottom-phone{
-        position: absolute;
-        top: 4em;
-        right: -5%;
-    }
-}
-@media (max-width: 768px) 
-{
-    h1 
-    {
-      margin-top: .5em;
-    }
-    .main-img 
-    {
-      width: calc(30em - 7em);
-      height: calc(23em - 7em);
-    }
-    .i-phone
-    {
-      width: calc(20em - 5em);
-    }
-    .bottom-phone{
-        position: absolute;
-        top: 3em;
-        right: -1%;
-    }
-    @media (max-width: 640px)
-    {
-        body
-        {
-          overflow: auto;
-          margin-top: 1rem;
-          margin-bottom: 12rem;
-        }
-        .right-div
-        {
-          position: relative;
-          right: 7em;
-        }
-        .nav-item:nth-child(1)
-        {
-          padding-left: 10px;
-        }
-        p
-        {
-            font-size: 1.3em;
-        }
-        .lineBreak
-        {
-          display: block;
-        }
-        .main-img 
-        {
-          width: calc(30em - 10em);
-          height: calc(23em - 10em);
-        }
-        .i-phone
-        {
-          width: calc(20em - 8em);
-        }
-        .bottom-phone{
-            position: absolute;
-            top: 2.5em;
-            right: 4.5%;
-        }
-    }
-
-}
-@media (max-width: 450px) 
-{
-    h1 
-    {
-      font-size: 1.2em;
-      margin-bottom: 10px;
-    }
-    p
-    {
-        font-size: 1em;
-    }
-    .lineBreak
-    {
-      display: block;
-    }
-    .main-img 
-    {
-      width: calc(30em - 15em);
-      height: calc(23em - 15em);
-    }
-    .i-phone
-    {
-      width: calc(20em - 12em);
+      width: 33vw;
+      height: 26vw;
+      margin-bottom: 0;
     }
     .top-phone 
     {
       position: absolute;
-      right: 5em;
-      top: .5em;
+      left: 7%;
+      top: .3em;
+    }
+    .bottom-phone{
+        position: absolute;
+        top: 4em;
+        right: 7%;
+    }
+    .i-phone 
+    {
+        width: 60%;
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width: 768px) 
+{
+    .i-phone
+    {
+        width: 40%;
+    }
+    .top-phone 
+    {
+      position: absolute;
+      left: 23%;
+      top: .3em;
+    }
+    .bottom-phone{
+        position: absolute;
+        top: 4em;
+        right: 23%;
+    }
+    h1 
+    {
+      margin-top: .5em;
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    p 
+    {
+      font-size: 1em;
+      margin-bottom: 0;
+    }
+    .nav-item 
+    {
+      padding: 0px 10px!important;
+    }
+    body
+    {
+      overflow: auto;
+      margin-top: 1%;
+      margin-bottom: 40%;
+      height: 100vh;
+    }
+}
+
+
+@media (max-width: 576px)
+{
+    .i-phone
+    {
+        width: 30%;
+    }
+    .top-phone 
+    {
+      position: absolute;
+      left: 28%;
+      top: .3em;
+    }
+    .bottom-phone{
+        position: absolute;
+        top: 2.5em;
+        right: 28%;
+    }
+    h1 
+    {
+      margin-top: .5em;
+      font-size: 1em;
+      margin-bottom: 10px;
+    }
+    p 
+    {
+      font-size: .8em;
     }
     .nav-link 
     {
-        font-size: .5rem;
+      font-size: .5rem;
     }
-    .fab
+    .fab 
     {
-        width:5px;
-        height:5px;
-        font-size: .8rem;
+      font-size: .6rem;
     }
 }
 
