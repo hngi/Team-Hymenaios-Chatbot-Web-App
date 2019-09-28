@@ -15,10 +15,14 @@ function getData(dataSource){
 		XMLHttpRequestObject.open("GET", dataSource);
 		XMLHttpRequestObject.onreadystatechange = function(){
 			if (XMLHttpRequestObject.readyState == 4 && XMLHttpRequestObject.status == 200){
-				var node = document.createElement("li");
+				var div = document.createElement("div");
+				div.classList.add('balloon');
+				div.classList.add('bot');
+				var li = document.createElement("li");
 				var textnode = document.createTextNode(XMLHttpRequestObject.responseText);
-				node.appendChild(textnode);
-				document.getElementById("messages").appendChild(node);
+				div.appendChild(textnode);
+				li.appendChild(div);
+				document.getElementById("messages").appendChild(li);
 			}
 		}
 		XMLHttpRequestObject.send(null);
@@ -27,14 +31,18 @@ function getData(dataSource){
 
 function get_reply(){
 	var msg = document.getElementById('message-box');
-	if (msg.length > 0){
+	if (msg.value.length > 0){
 		var msg_ = "/reply?message="+msg.value;
 
 		// me
-		var node = document.createElement("li");
-		var textnode = document.createTextNode("me: "+msg.value);
-		node.appendChild(textnode);
-		document.getElementById("messages").appendChild(node);
+		var div = document.createElement("div");
+		div.classList.add('balloon');
+		div.classList.add('user');
+		var li = document.createElement("li");
+		var textnode = document.createTextNode(msg.value);
+		div.appendChild(textnode);
+		li.appendChild(div);
+		document.getElementById("messages").appendChild(li);
 
 		// bot
 		msg.value = "";

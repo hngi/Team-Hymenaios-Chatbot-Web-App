@@ -23,4 +23,4 @@ def reply():
 	return "%s (bot):%s" %(session, reply)
 
 if __name__ == "__main__":
-	app.run(debug=True, port=4559)
+	app.run()
