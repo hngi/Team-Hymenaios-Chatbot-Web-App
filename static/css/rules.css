@@ -1,14 +1,13 @@
 body{
-	background-color: #ffffff;
+	background-image: url("../img/filip-zrnzevic-QsWG0kjPQRY-unsplash.png") !important;
 }
 
 #bg-elevation{
 	width: 80%;
 	margin: auto;
-	background-image: url("../img/filip-zrnzevic-QsWG0kjPQRY-unsplash.png");
 	border-radius: 17px;
 	margin-top: 2em;
-	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	/* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25); */
 	padding-bottom: 50px;
 }
 
@@ -42,7 +41,7 @@ nav{
 	font-size: 13px;
 	line-height: 27px;
 	text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
-	
+
 }
 
 #present-link > div{
@@ -57,6 +56,7 @@ nav{
 	height: 480px;
 	width: 400px;
 	margin: auto;
+	margin-top: 8em;
 	background: linear-gradient(180deg, rgba(34, 222, 177, 0.7) 0%, rgba(255, 255, 255, 0.595) 100%), url(img/Cloud.jpg);
 	box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
 	border-radius: 27px;
@@ -108,7 +108,7 @@ nav{
 	margin-top: 10px;
 	margin-left: 5px;
 	cursor: pointer;
-	
+
 }
 
 #message-box{
@@ -125,4 +125,27 @@ nav{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 13px;
+}
+
+
+#messages{
+	list-style-type: none;
+}
+
+.balloon{
+	background-color: whitesmoke;
+	margin-bottom: 10px;
+	padding-top: 6px;
+	padding: 6px;
+	max-width: 60%;
+	min-width: 40%;
+}
+
+.user{
+	margin-left: 30%;
+	border-radius: 8px 0px 8px 8px;
+}
+
+.bot{
+	border-radius: 0px 8px 8px 8px;
 }

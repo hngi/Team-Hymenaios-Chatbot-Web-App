@@ -17,8 +17,8 @@ def get_reply(query, session_id):
 	try:
 		response = detect_intent_from_text(query, session_id)
 		return response.fulfillment_text
-	except google.api_core.exceptions.ServiceUnavailable:
-		return "ServiceUnavailable"
+	except Exception as e:
+		return "Sorry there was an error."
 
 class SessionID(object):
 	"""SessionID for keeping track of chat sessions"""
@@ -26,10 +26,15 @@ class SessionID(object):
 		super(SessionID, self).__init__()
 
 	def generate(self):
-		id_ = str(random.randint(1, 800000))+str(self.__hash__())
+		try:
+			id_ = str(random.randint(1, 800000))+str(self.__hash__())
+		except Exception as e:
+			print("error : ", e)
+			id_ = str(random.randint(1, 800000))+str(random.randint(1, 800000))
+			print("error resolved")
 		return int(id_)
 
-		
+
 
 # def get_reply(query, *args):
 # 	return f"you said '{query}'"

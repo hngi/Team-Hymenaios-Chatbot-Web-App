@@ -5,16 +5,15 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-	session = bot.SessionID()
-	session_id = str(session.generate())
-	resp = make_response(render_template("index.html", sessionid=session_id))
-	resp.set_cookie('session', session_id)
-	return resp
-
+	return render_template("index.html")
 
 @app.route("/chatbot")
 def chatbot():
-	return render_template("chat.html")
+	session = bot.SessionID()
+	session_id = str(session.generate())
+	resp = make_response(render_template("chat.html", sessionid=session_id))
+	resp.set_cookie('session', session_id)
+	return resp
 
 @app.route("/reply")
 def reply():
@@ -24,4 +23,4 @@ def reply():
 	return "%s (bot):%s" %(session, reply)
 
 if __name__ == "__main__":
-	app.run()
+	app.run(debug=True, port=4559)

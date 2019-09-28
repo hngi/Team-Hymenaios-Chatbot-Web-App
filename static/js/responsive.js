@@ -2,7 +2,7 @@ function resize() {
     if ($(window).height() < 768) {
         $('#bg-elevation').height($(window).height());
     } else {
-        $('#bg-elevation').height(new_height);
+        $('#bg-elevation').height(600);
     }
 }
 

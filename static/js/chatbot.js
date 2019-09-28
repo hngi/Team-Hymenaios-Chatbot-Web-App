@@ -5,10 +5,10 @@ if (window.XMLHttpRequest) {
 	XMLHttpRequestObject = new XMLHttpRequest();
 
 } else if (window.ActiveXObject) {
-	
+
 	XMLHttpRequestObject = new ActiveXObject("Microsoft.XMLHTTP");
 }
- 
+
 
 function getData(dataSource){
 	if(XMLHttpRequestObject) {
@@ -18,7 +18,7 @@ function getData(dataSource){
 				var node = document.createElement("li");
 				var textnode = document.createTextNode(XMLHttpRequestObject.responseText);
 				node.appendChild(textnode);
-				document.getElementById("messages").appendChild(node); 
+				document.getElementById("messages").appendChild(node);
 			}
 		}
 		XMLHttpRequestObject.send(null);
@@ -26,15 +26,18 @@ function getData(dataSource){
 }
 
 function get_reply(){
-	var msg = document.getElementById('msg');
-	var msg_ = "/reply?message="+msg.value;
+	var msg = document.getElementById('message-box');
+	if (msg.length > 0){
+		var msg_ = "/reply?message="+msg.value;
 
-	// me
-	var node = document.createElement("li");
-	var textnode = document.createTextNode("me: "+msg.value);
-	node.appendChild(textnode);
-	document.getElementById("messages").appendChild(node); 
+		// me
+		var node = document.createElement("li");
+		var textnode = document.createTextNode("me: "+msg.value);
+		node.appendChild(textnode);
+		document.getElementById("messages").appendChild(node);
 
-	// bot
-	var reply = getData(msg_);
+		// bot
+		msg.value = "";
+		var reply = getData(msg_);
+	}
 }
