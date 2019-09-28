@@ -22,8 +22,7 @@
 }
 
 body{
-    background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%), url(img/Cloud.jpg)
-    no-repeat;
+    background: url(img/Homepage.png);
     font-family: 'Montserrat', sans-serif;
     overflow-y: hidden;
     height: 100vh;
