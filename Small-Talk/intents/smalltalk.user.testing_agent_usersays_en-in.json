@@ -1,0 +1,99 @@
+[
+  {
+    "id": "ae2e59d6-597e-421e-bedc-8972d1320ed7",
+    "data": [
+      {
+        "text": "I want to test you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4cfc9e51-9817-4ff3-85f4-757c7b4ac51b",
+    "data": [
+      {
+        "text": "just testing you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c318053-069b-4c62-93f0-4b272ddfdff6",
+    "data": [
+      {
+        "text": "testing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5dcab71a-38b2-4ee8-9c4b-2f6e7d828e64",
+    "data": [
+      {
+        "text": "testing chatbot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d6a0cf46-69d0-41e6-aa06-4ba1d009c7c9",
+    "data": [
+      {
+        "text": "let me test you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3007eca6-304d-44ce-b2dc-f4f28b9978b6",
+    "data": [
+      {
+        "text": "can I test you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5fbd509c-28c1-4be5-b9c2-b54783514408",
+    "data": [
+      {
+        "text": "I am testing you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d45cb3b-71aa-44fd-a314-f747bd0853c4",
+    "data": [
+      {
+        "text": "test",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

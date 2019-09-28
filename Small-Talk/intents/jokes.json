@@ -1,0 +1,35 @@
+{
+  "id": "aa00ba83-48a6-4127-8d86-36be3d71da8c",
+  "name": "jokes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "A doctor accidentally prescribes his patient a laxative instead of a coughing syrup.\n\nThree days later the patient comes for a check-up and the doctor asks: “Well? Are you still coughing?”\n\nThe patient replies: “No. I’m afraid to.”",
+            "Job interviewer: “And where would you see yourself in five years’ time Mr. Jeffries?\"\n\nMr. Jeffries: \"Personally I believe my biggest weakness is in listening.\"",
+            "An old grandma brings a bus driver a bag of peanuts every day. \n\nFirst the bus driver enjoyed the peanuts but after a week of eating them he asked: \"Please granny, don\u0027t bring me peanuts anymore. Have them yourself.\". \n\nThe granny answers: \"You know, I don\u0027t have teeth anymore. I just prefer to suck the chocolate around them.\""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

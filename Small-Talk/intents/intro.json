@@ -1,0 +1,35 @@
+{
+  "id": "4a4d7184-2fdc-400d-9fb6-e6582c5ad522",
+  "name": "intro",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "my name is bisola.",
+            "my name is bisola, nice to meet you.",
+            "my name is bisola... its nice chatting with you"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

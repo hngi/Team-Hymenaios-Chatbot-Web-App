@@ -1,0 +1,308 @@
+[
+  {
+    "id": "cb81c863-e586-4e3b-923d-bc93643c6f24",
+    "data": [
+      {
+        "text": "you\u0027re telling the truth",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b8c1b933-cce1-4cf5-920c-2fd1e2a2e60d",
+    "data": [
+      {
+        "text": "that is right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "44a668dc-0d79-4152-b0a9-1b923e2be4f9",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " so right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e8eba16-8b66-4aec-a9dc-36fa5aa47873",
+    "data": [
+      {
+        "text": "that is correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5e002e73-3ea8-4280-afce-0971263e87ea",
+    "data": [
+      {
+        "text": "you\u0027re right about that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "951eb33f-8322-44eb-87a9-9d7556f090ce",
+    "data": [
+      {
+        "text": "that is very true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6ec25661-aeff-478a-b719-963154ca92bb",
+    "data": [
+      {
+        "text": "true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "243fada2-e790-4086-9f8c-ed48077e3399",
+    "data": [
+      {
+        "text": "that\u0027s so true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "03460166-609b-4220-a2f5-fe9d915f83f1",
+    "data": [
+      {
+        "text": "you\u0027re definitely right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3cadf059-783a-4425-af4b-11e7955ad557",
+    "data": [
+      {
+        "text": "it\u0027s true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "075c04ab-09a8-4bbb-b799-070c1f76b2db",
+    "data": [
+      {
+        "text": "what you say is true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "adcda636-7f1f-4caf-97ec-6a02ae092a7a",
+    "data": [
+      {
+        "text": "that\u0027s true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8ea87314-ac09-46c8-8ecd-8d545ab0973f",
+    "data": [
+      {
+        "text": "it\u0027s",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "44ebe424-10d8-4999-949c-e4e4925f4867",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "14180330-4d05-4274-96e2-cfb56c6cc070",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bf7b29a6-977a-479c-9c2b-7271edb7fc23",
+    "data": [
+      {
+        "text": "you\u0027re not wrong",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1d652dff-b6c3-4315-8db7-cfd54108c2ff",
+    "data": [
+      {
+        "text": "you\u0027re absolutely right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "696bb8f1-70d1-4f7b-845f-d11c8dffa977",
+    "data": [
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " is true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "40cc311b-9e31-41af-b441-d4f732b5df23",
+    "data": [
+      {
+        "text": "it\u0027s",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " the truth",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0e71270c-8049-4a61-8f4b-1bbfa2281e07",
+    "data": [
+      {
+        "text": "I know that\u0027s right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7ef563b-b7f6-477f-8666-4494d34cfee5",
+    "data": [
+      {
+        "text": "that\u0027s correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05435f53-6290-4cb4-8ad5-f079056805bb",
+    "data": [
+      {
+        "text": "that is true",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

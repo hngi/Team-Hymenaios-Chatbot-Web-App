@@ -1,0 +1,95 @@
+[
+  {
+    "id": "66122be9-5547-4d58-b242-064861a12671",
+    "data": [
+      {
+        "text": "I\u0027",
+        "userDefined": false
+      },
+      {
+        "text": "m",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " enraged",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1b820c9-89af-40ff-8296-d61fd6ce44ec",
+    "data": [
+      {
+        "text": "I am mad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b3882e90-e878-482f-bc65-7ba4252add89",
+    "data": [
+      {
+        "text": "I\u0027m angry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5564115-428e-46dd-86e1-5d3534e045a7",
+    "data": [
+      {
+        "text": "I\u0027m furious",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9192bffe-326d-4be7-8d4c-184afe12b5bb",
+    "data": [
+      {
+        "text": "I am angry with you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c4154460-ff68-4541-84fc-8a5c94c457d9",
+    "data": [
+      {
+        "text": "I am mad at you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "76db1555-749b-43d9-a2f6-0e13bc02864c",
+    "data": [
+      {
+        "text": "I\u0027m being mad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
