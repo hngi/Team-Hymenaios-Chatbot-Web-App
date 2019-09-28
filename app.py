@@ -20,7 +20,7 @@ def reply():
 	msg = request.args.get('message', '')
 	session = request.cookies.get('session')
 	reply = bot.get_reply(msg, int(session))
-	return "%s (bot):%s" %(session, reply)
+	return reply
 
 if __name__ == "__main__":
 	app.run()
