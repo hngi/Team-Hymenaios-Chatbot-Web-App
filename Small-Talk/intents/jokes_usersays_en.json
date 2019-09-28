@@ -1,0 +1,98 @@
+[
+  {
+    "id": "0cc66232-5ea8-420d-8e57-cb70f41ce299",
+    "data": [
+      {
+        "text": "say joke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be471df9-361d-42b4-abb7-3c01353ec59f",
+    "data": [
+      {
+        "text": "spill a joke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "24d11636-72a0-491a-a8aa-6bb1e1e05f2d",
+    "data": [
+      {
+        "text": "comedy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "411e4dc6-be4e-4816-85b7-b06a421fd9fd",
+    "data": [
+      {
+        "text": "make me laugh",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c70696cb-5cca-4d59-8140-6e9adfa1b9f1",
+    "data": [
+      {
+        "text": "i want fun",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "265215e0-87a8-4200-bc23-c6b698c42421",
+    "data": [
+      {
+        "text": "say somthing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f5ac3556-2d8f-4bb0-be55-6f1a7fee8261",
+    "data": [
+      {
+        "text": "say a joke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1c57a89-8c37-425a-82b5-52a5ac6420d1",
+    "data": [
+      {
+        "text": "tell me a joke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

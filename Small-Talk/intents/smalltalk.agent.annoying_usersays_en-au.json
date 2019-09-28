@@ -1,0 +1,160 @@
+[
+  {
+    "id": "b083e053-1970-4353-a25e-bc26c3b9276c",
+    "data": [
+      {
+        "text": "you annoy me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "45eef75c-5326-4bf7-9cb8-e915261640c3",
+    "data": [
+      {
+        "text": "you\u0027re incredibly annoying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c837385-7439-409a-8a32-45c5098d1561",
+    "data": [
+      {
+        "text": "you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " annoying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d0108c49-8222-423f-b04d-a4c677ef5036",
+    "data": [
+      {
+        "text": "how annoying you ",
+        "userDefined": false
+      },
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "18bdcae1-9e4b-4510-86a4-7d0273f45546",
+    "data": [
+      {
+        "text": "you are annoying me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "85232e68-5314-408c-8b0f-f4bf90aae276",
+    "data": [
+      {
+        "text": "you\u0027re too annoying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fd79842f-040e-4d91-b7a0-a5d7e251e913",
+    "data": [
+      {
+        "text": "you are irritating",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "81d9aadc-4e0d-4ccb-a230-2de6077bf604",
+    "data": [
+      {
+        "text": "you are very annoying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9dda8adb-d730-437f-983d-7c319405a997",
+    "data": [
+      {
+        "text": "you are such annoying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac4bb8a4-3790-48ef-a599-ad5655471e32",
+    "data": [
+      {
+        "text": "you are annoying me so much",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e92dbdc8-1338-44dc-9d2e-74a8a6bcfdb9",
+    "data": [
+      {
+        "text": "you\u0027re so annoying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b8dc7ccd-610c-4833-a47c-f43c5012d81b",
+    "data": [
+      {
+        "text": "I find you annoying",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

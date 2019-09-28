@@ -1,0 +1,116 @@
+[
+  {
+    "id": "8b4af980-c566-47d8-a9c7-bfb3f171eeed",
+    "data": [
+      {
+        "text": "when were you born",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0ff62386-7192-4170-b63b-5cc615f25de5",
+    "data": [
+      {
+        "text": "when do you have ",
+        "userDefined": false
+      },
+      {
+        "text": "birthday",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4b41e221-755c-41d7-8491-eb12e51f9c83",
+    "data": [
+      {
+        "text": "when is your ",
+        "userDefined": false
+      },
+      {
+        "text": "birthday",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59202860-2813-4588-9257-89b02cefedcf",
+    "data": [
+      {
+        "text": "your",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " birth date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "44befcb7-3715-4a12-884e-d01485e70284",
+    "data": [
+      {
+        "text": "when do you celebrate your ",
+        "userDefined": false
+      },
+      {
+        "text": "birthday",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f79b2c3a-0aa5-42fe-9826-86ca5fc0e6ac",
+    "data": [
+      {
+        "text": "date of your ",
+        "userDefined": false
+      },
+      {
+        "text": "birthday",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5cafef57-a842-46e3-a684-e0831858ac47",
+    "data": [
+      {
+        "text": "what\u0027s your ",
+        "userDefined": false
+      },
+      {
+        "text": "birthday",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

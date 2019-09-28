@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1d967984-0ed9-45e5-8439-dffb617f50f4",
+    "data": [
+      {
+        "text": "I\u0027m not going to wait for you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f4fd205a-60eb-44b1-886c-eebd1be646ef",
+    "data": [
+      {
+        "text": "I don\u0027t want to talk about hobbies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fb841e02-a9ce-432a-9704-ada67d0ac7b4",
+    "data": [
+      {
+        "text": "I love spring",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b95336cc-ba64-44d2-aeec-cbc53646d3cb",
+    "data": [
+      {
+        "text": "the weather if beautiful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "00992f06-c236-435b-b5b9-5618db392024",
+    "data": [
+      {
+        "text": "I didn\u0027t say I\u0027m sad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e81d534d-d3f3-4d48-9d38-192faa93b499",
+    "data": [
+      {
+        "text": "I\u0027m not interested in your age",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
