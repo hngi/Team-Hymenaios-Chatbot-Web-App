@@ -22,7 +22,7 @@
 }
 
 body{
-    background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%), url(../img/Homepage.png);
+    background: url(../img/Homepage.png);
     background-size: cover;
     object-fit: cover;
     float: left;
