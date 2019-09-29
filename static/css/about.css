@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(180deg, #271156 0%, rgba(34, 222, 177, 0.62) 100%) no-repeat, url(img/Cloud.jpg);
-    
+
     font-family: 'Montserrat', sans-serif;
     overflow-y: hidden;
     height: 105.5vh;
@@ -120,7 +120,7 @@ nav{
 	font-size: 13px;
 	line-height: 27px;
 	text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
-	
+
 }
 
 #present-link > div{
@@ -186,7 +186,7 @@ nav{
 	margin-top: 10px;
 	margin-left: 5px;
 	cursor: pointer;
-	
+
 }
 
 #message-box{
@@ -222,7 +222,7 @@ nav{
 	padding: 5px;
 	border-radius: 50%;
 }
-  
+
 .row::after {
 	content: "";
 	clear: both;

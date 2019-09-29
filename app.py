@@ -19,6 +19,14 @@ def chatbot():
 def gallery():
 	return render_template("gallery.html")
 
+@app.route("/about")
+def about():
+	return render_template("about.html")
+
+@app.route("/how_it_works")
+def how_it_works():
+	return render_template("how_it_works.html")
+
 @app.route("/reply")
 def reply():
 	msg = request.args.get('message', '')
@@ -27,4 +35,4 @@ def reply():
 	return reply
 
 if __name__ == "__main__":
-	app.run()
+	app.run(debug=True, port=3223)

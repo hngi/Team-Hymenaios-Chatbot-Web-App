@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="UI/css/how_it_works.css">
+    <link rel="stylesheet" href={{url_for("static", filename="css/how_it_works.css")}}>
 </head>
 
 <body>
    	<div class="col-12 main-container">
    		<div class="col-11 mx-auto px-0 container-fluid">
-   			<nav class="navbar navbar-expand-lg navbar-light nav-bars px-0">
+   			<nav class="navbar navbar-expand-lg navbar-light nav-bars px-0">)}}
 			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			    </button>
@@ -23,34 +23,34 @@
 				    <div class="collapse navbar-collapse navs" id="navbarSupportedContent">
 					    <ul class="navbar-nav mr-auto link">
 					      <li class="nav-item active">
-					        <a class="nav-link px-0" href="#">Home <span class="sr-only">(current)</span></a>
+					        <a class="nav-link px-0" href="/">Home <span class="sr-only">(current)</span></a>
 					      </li>
 					      <li class="nav-item">
-					        <a class="nav-link" href="#">Your Buddie</a>
+					        <a class="nav-link" href="/chatbot">Your Buddie</a>
 					      </li>
 					      <li class="nav-item">
-					        <a class="nav-link" href="#">Gallery</a>
+					        <a class="nav-link" href="/gallery">Gallery</a>
 					      </li>
 					      <li class="nav-item">
-					        <a class="nav-link" href="#">How It Works</a>
+					        <a class="nav-link" href="/how_it_works">How It Works</a>
 					      </li>
 					      <li class="nav-item">
-					        <a class="nav-link" href="#">About</a>
+					        <a class="nav-link" href="/about">About</a>
 					      </li>
 					    </ul>
 					    <form class="form-inline my-2 my-lg-0 forms">
 						    <div class="col-4  twitter-box">
-			   					<img src="UI/img/twitter.png" class="mt-2 twitter">
+			   					<img src={{url_for("static", filename="img/twitter.png")}} class="mt-2 twitter">
 			   				</div>
 			   				<div class="col-4 instagram-box">
-			   					<img src="UI/img/instagram.png" class="mt-2 ml-2">
+			   					<img src={{url_for("static", filename="img/instagram.png")}} class="mt-2 ml-2">
 			   				</div>
 			   				<div class="col-4 facebook-box">
-			   					<img src="UI/img/facebook.png" class="mt-2 ml-2">
+			   					<img src={{url_for("static", filename="img/facebook.png")}} class="mt-2 ml-2">
 			   				</div>
 					    </form>
 			  	    </div>
-			</nav>	
+			</nav>
    		</div>
 
    		<div class="col-11  mx-auto main-body">
@@ -65,10 +65,10 @@
    					<p style="text-align:justify;">Because more than half of the world’s population unfortunately still doesn’t have access to basic health care. For many more, especially in countries like Nigeria, mental health care is not an option and isn’t given due attention.</p>
    				</div>
    				<div class="col-12 col-sm-6 order-3 first-image">
-   					<img src="UI/img/Therapy.png">
+   					<img src={{url_for("static", filename="img/Therapy.png")}}>
    				</div>
-   				<div class="col-12 col-sm-6 order-5 order-sm-4 second-image">
-   					<img src="UI/img/Group-of-friends.png">
+   				<div class="col-12 col-sm-6 order-5 order-sm-4 second-image")}}>
+   					<img src={{url_for("static", filename="img/Group-of-friends.png")}}>
    				</div>
    				<div class="col-12 col-sm-6 order-4 order-sm-5 solution-box">
    					<h4 class="mt-4">How we found a solution!</h4>
@@ -79,7 +79,7 @@
    					<p style="text-align:justify;"> All you have to do is select your preferred buddie (Trevor or Bisola), introduce yourself, and have a conversation. Your buddie has been designed to ask you carefully-crafted questions that will get you closer to living a more happy, fulfilled life.</p>
    				</div>
    				<div class="col-12 col-sm-6 order-7 last-image">
-   					<img src="UI/img/5ce7.png">
+   					<img src={{url_for("static", filename="img/5ce7.png")}}>
    				</div>
 
    				<div class="col-5 mt-3 order-8 footer">
@@ -87,7 +87,7 @@
    				</div>
    			</div>
    		</div>
-   	
+
    	</div>
 
 
