@@ -22,7 +22,7 @@
 }
 
 body{
-    background: url(../img/Homepage.png);
+    background: url(img/Homepage.png);
     background-size: cover;
     object-fit: cover;
     float: left;
