@@ -1,0 +1,38 @@
+[
+  {
+    "id": "f8a674a7-359e-413a-ae86-e43a8e5e650a",
+    "data": [
+      {
+        "text": "i failed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3e660b77-4679-4067-93c7-a29dff0a22d2",
+    "data": [
+      {
+        "text": "sick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "78512c4d-0327-4ce4-bb67-b4a3ab72dc34",
+    "data": [
+      {
+        "text": "Sad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

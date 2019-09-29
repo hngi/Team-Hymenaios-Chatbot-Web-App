@@ -1,0 +1,37 @@
+{
+  "id": "c1688e29-d118-4b6a-aad4-bc8d24233037",
+  "name": "health",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": [
+            "sorry, please rest a bit",
+            "take a nap, and you\u0027ll feel fine.",
+            "take a nap, and you\u0027ll feel fine, i promise",
+            "sorry, how can i help?",
+            "hope it doesn\u0027t hurt to much?..."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
