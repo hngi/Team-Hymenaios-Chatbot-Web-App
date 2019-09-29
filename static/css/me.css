@@ -22,7 +22,7 @@ nav{
 #chat-body{
   overflow-y: visible;
   overflow-x: hidden;
-  height: 500px;
+  min-height: 500px;
 }
 
 #pro-name{
@@ -61,4 +61,8 @@ nav{
 .bot{
   background-color: whitesmoke;
   border-radius: 0px 8px 8px 8px;
+}
+
+#app{
+  margin-top: 10px;
 }
